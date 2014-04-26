@@ -5,7 +5,7 @@ This is a project for Getting and Cleaning Data on Coursera, and the description
 
 Project 1. Calculate mean and standard deviation
 
-1.Load Data set, create two variables
+1. Load Data set, create two variables
 Train_X <- read.table("./data/X_train.txt",sep="",header=FALSE)
 Train_Y <- read.table("./data/Y_train.txt",sep="",header=FALSE)
 
@@ -45,19 +45,19 @@ Project 2. Calculate mean
 
 1. As project 1, load data x,y,subject
 
-Train_X <- read.table("./data/X_train.txt",sep="",header=FALSE)
-Train_Y <- read.table("./data/Y_train.txt",sep="",header=FALSE)
-Train_Subject <- read.table("./data/subject_train.txt",sep="",header=FALSE)
-names(Train_Subject) <- c("VV")
-names(Train_Y) <- c("V0")
-Train_mergedData <- append(append(Train_Y,Train_Subject),Train_X)
-
-Test_X <- read.table("./data/X_test.txt",sep="",header=FALSE)
-Test_Y <- read.table("./data/Y_test.txt",sep="",header=FALSE)
-Test_Subject <- read.table("./data/subject_test.txt",sep="",header=FALSE)
-names(Test_Subject) <- c("VV")
-names(Test_Y) <- c("V0")
-Test_mergedData <- append(append(Test_Y,Test_Subject),Test_X)
+    Train_X <- read.table("./data/X_train.txt",sep="",header=FALSE)
+    Train_Y <- read.table("./data/Y_train.txt",sep="",header=FALSE)
+    Train_Subject <- read.table("./data/subject_train.txt",sep="",header=FALSE)
+    names(Train_Subject) <- c("VV")
+    names(Train_Y) <- c("V0")
+    Train_mergedData <- append(append(Train_Y,Train_Subject),Train_X)
+    
+    Test_X <- read.table("./data/X_test.txt",sep="",header=FALSE)
+    Test_Y <- read.table("./data/Y_test.txt",sep="",header=FALSE)
+    Test_Subject <- read.table("./data/subject_test.txt",sep="",header=FALSE)
+    names(Test_Subject) <- c("VV")
+    names(Test_Y) <- c("V0")
+    Test_mergedData <- append(append(Test_Y,Test_Subject),Test_X)
 
 2. import library gtools and merge two data sets
 library(gtools) 
