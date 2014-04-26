@@ -42,6 +42,7 @@ tapply(mAlldata$value,mAlldata$V0,sd)
 
 
 Project 2. Calculate mean
+
 1. As project 1, load data x,y,subject
 
 Train_X <- read.table("./data/X_train.txt",sep="",header=FALSE)
