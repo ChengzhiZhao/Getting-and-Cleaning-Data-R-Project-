@@ -38,9 +38,9 @@ mAlldata$V0[mAlldata$V0 == 6 ] <- 'LAYING'
 7. calculat mean and sd
 tapply(mAlldata$value,mAlldata$V0,mean)
 tapply(mAlldata$value,mAlldata$V0,sd)
-
-
-
+ 
+ 
+ 
 
 Project 2. Calculate mean
 
