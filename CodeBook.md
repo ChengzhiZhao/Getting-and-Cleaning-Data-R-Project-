@@ -16,4 +16,10 @@ Measurement Value
   Data typ:integer
   Range: -1 ~ 1
   
+Variable
+
+1. Train_X: Data Set of Train X
+2. Train_Y: Data Set of Train Y
+3. Train_Subject: Data set of Train Subject
+4. Train_mergedData: Merge Data set of Train_X,Train_Y,Train_Subject
 
