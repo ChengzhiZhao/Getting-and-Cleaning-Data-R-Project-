@@ -27,7 +27,7 @@ Alldata <- smartbind(Train_mergedData,Test_mergedData)
 library(reshape)
 mAlldata <- melt(Alldata,id = ("V0"))
 
-6. rename each group
+6. Uses descriptive activity names to name the activities in the data set
 mAlldata$V0[mAlldata$V0 == 1 ] <- 'WALKING'
 mAlldata$V0[mAlldata$V0 == 2 ] <- 'WALKING_UPSTAIRS'
 mAlldata$V0[mAlldata$V0 == 3 ] <- 'WALKING_DOWNSTAIRS'
@@ -38,6 +38,7 @@ mAlldata$V0[mAlldata$V0 == 6 ] <- 'LAYING'
 7. calculat mean and sd
 tapply(mAlldata$value,mAlldata$V0,mean)
 tapply(mAlldata$value,mAlldata$V0,sd)
+
 
 
 
@@ -68,7 +69,7 @@ Alldata <- smartbind(Train_mergedData,Test_mergedData)
 library(reshape)
 mAlldata <- melt(Alldata,id = c("V0","VV"))
 
-4. rename each group
+4. Uses descriptive activity names to name the activities in the data set
 mAlldata$V0[mAlldata$V0 == 1 ] <- 'WALKING'
 mAlldata$V0[mAlldata$V0 == 2 ] <- 'WALKING_UPSTAIRS'
 mAlldata$V0[mAlldata$V0 == 3 ] <- 'WALKING_DOWNSTAIRS'
