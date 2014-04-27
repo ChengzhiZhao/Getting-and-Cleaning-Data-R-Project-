@@ -26,4 +26,6 @@ Variable
 6. Test_Y: Data Set of Test Y
 7. Test_Subject: Data set of Test Subject
 8. Test_mergedData: Merge Data set of Test_X,Test_Y,Test_Subject
+9. Alldata: Data sets of Train_mergedData Merged With Test_mergedData
+10. mAlldata: Melted Data sets of Alldata
 
