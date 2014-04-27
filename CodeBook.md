@@ -1,26 +1,26 @@
 This is a code book for the project
 
-Activity Labels (V0)
-  Data type : integer
-  Length : 1
-  Range : 1-6
-  Description: 
-              1 WALKING
-              2 WALKING_UPSTAIRS
-              3 WALKING_DOWNSTAIRS
-              4 SITTING
-              5 STANDING
-              6 LAYING
-
-Measurement Value
-  Data typ:integer
-  Range: -1 ~ 1
+Activity Labels (V0)<br>
+  Data type : integer<br>
+  Length : 1<br>
+  Range : 1-6<br>
+  Description: <br>
+              1 WALKING<br>
+              2 WALKING_UPSTAIRS<br>
+              3 WALKING_DOWNSTAIRS<br>
+              4 SITTING<br>
+              5 STANDING<br>
+              6 LAYING<br>
+<br>
+Measurement Value<br>
+  Data typ:integer<br>
+  Range: -1 ~ 1<br>
   
   
-Tester(VV)
-  Data type: integer
-  Length:2
-  Range:1-30
+Tester(VV)<br>
+  Data type: integer<br>
+  Length:2<br>
+  Range:1-30<br>
   
 Data Sets
 
