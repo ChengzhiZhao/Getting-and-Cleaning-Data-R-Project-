@@ -17,12 +17,12 @@ Measurement Value
   Range: -1 ~ 1
   
   
-Tester
+Tester(VV)
   Data type: integer
   Length:2
   Range:1-30
   
-User Defined Variable
+Data Sets
 
 1. Train_X: Data Set of Train X
 2. Train_Y: Data Set of Train Y
