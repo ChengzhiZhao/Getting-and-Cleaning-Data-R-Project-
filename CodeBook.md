@@ -1,6 +1,6 @@
 This is a code book for the project
 
-Activity Labels
+Activity Labels (V0)
   Data type : integer
   Length : 1
   Range : 1-6
@@ -16,7 +16,13 @@ Measurement Value
   Data typ:integer
   Range: -1 ~ 1
   
-Variable
+  
+Tester
+  Data type: integer
+  Length:2
+  Range:1-30
+  
+User Defined Variable
 
 1. Train_X: Data Set of Train X
 2. Train_Y: Data Set of Train Y
